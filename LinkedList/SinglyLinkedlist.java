@@ -1,4 +1,4 @@
-package com.DataStructures.LL;
+package com.DataStructures.LinkedList;
 
 public class SinglyLinkedlist {
 

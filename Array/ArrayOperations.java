@@ -50,11 +50,15 @@ public class ArrayOperations{
     }
 
     public void show(){
-        System.out.print("[ ");
+        System.out.print("[");
         for (int i = 0; i < index; i++) {
-            System.out.print(array[i]+" ");
+            System.out.print(array[i]);
+            if(i==index-1){
+                System.out.print("]");
+                return;
+            }
+            System.out.print(", ");
         }
-        System.out.print("]");
         System.out.println();
         System.out.println("Size of Array : "+index);
     }
